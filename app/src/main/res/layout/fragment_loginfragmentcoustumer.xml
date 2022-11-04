@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Loginfragmentcoustumer">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/pink4">
+
+        <ImageView
+            android:id="@+id/loginimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="66dp"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/username"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/loginbt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="77dp"
+            android:backgroundTint="@color/pink"
+            android:text="menu"
+            app:layout_constraintBaseline_toBaselineOf="@+id/sigtupbt"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/sigtupbt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="87dp"
+            android:layout_marginBottom="101dp"
+            android:backgroundTint="@color/pink"
+            android:text="SIGNUP"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="89dp"
+            android:backgroundTint="@color/pink3"
+            android:ems="10"
+            android:hint="user name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toTopOf="@+id/password"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginimage" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="42dp"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toTopOf="@+id/forgot"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.447"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/username" />
+
+        <TextView
+            android:id="@+id/forgot"
+            android:layout_width="133dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginBottom="245dp"
+            android:text="forgot password"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/password"
+            app:layout_constraintTop_toBottomOf="@+id/password" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

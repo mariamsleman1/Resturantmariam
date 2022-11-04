@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "843216616110",
+    "project_id": "resturantmariam-f9d6e",
+    "storage_bucket": "resturantmariam-f9d6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843216616110:android:26d13e4cee995fbb9fcb3f",
+        "android_client_info": {
+          "package_name": "com.example.resturantmariam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843216616110-etei1sbskkm01gvqmoj9bhnocnalved6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgpWeDcnEamMuLNLBF18GY-vqkAgt-QvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843216616110-etei1sbskkm01gvqmoj9bhnocnalved6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
